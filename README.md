@@ -1,4 +1,4 @@
-# Tabu Search
+# Tabu Search for the Orienteering Problem
 
 This project implements an Tabu Search implementation to solve the **Orieteering Problem** (OP). Also an exact algorithm using Integer Linear Programming (ILP) is provided
 
