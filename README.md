@@ -24,11 +24,18 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 4. Run the tabu search algorithm
+## 4. Run the algorithms
 
+for the tabu search
 ```
 python -m src.run_tabu_search [options]
 ```
+
+for the ilp solver
+```
+python -m src.run_ilp [options]
+```
+>To see all available options run the above command with the `--help` flag
 
 ## Run experiments
 
@@ -41,39 +48,4 @@ To run all the experiments for the ilp solver
 ```bash
 ./run_experiments_ilp.sh
 ```
-
-To run `intensification` heuristic with an spectific target with 50 independent executions for the instance `exact_n200`, in order to have empirical data for later analasys
-```
-# With an "easy" target
-./run_easy_target.sh
-
-# With an "medium" target
-./run_easy_target.sh
-
-# With an "hard" target
-./run_easy_target.sh
-```
-
-## Run for a single instance
-
-```
-java -cp out Main <instance_name> <method>
-```
-
-####  Run example for the instance *exact_n25* with method *std*
-```
-java -cp out Main exact_n25 std
-```
-
-#### Available instances are those present in the `./instances` and the <instance_name> is the name of the file (without the extension)
-
-#### Available methods are:
-* std
-* std+t2
-* std+best
-* std+div
-* std+int
-
-## See the results
-
-The result output will be available in the file `./results/<method>/<instance_name>.txt`
+>The results will be available in the directories `./results/<instance>/<config>`
