@@ -1,0 +1,9 @@
+instance,config,score,dist,time
+tsiligirides_problem_3_budget_070,ilp,20,8.93,0.00
+tsiligirides_problem_3_budget_070,ilp,170,44.72,0.11
+tsiligirides_problem_3_budget_070,ilp,340,47.15,0.14
+tsiligirides_problem_3_budget_070,ilp,360,54.02,0.18
+tsiligirides_problem_3_budget_070,ilp,490,65.62,0.23
+tsiligirides_problem_3_budget_070,ilp,620,69.06,0.41
+tsiligirides_problem_3_budget_070,ilp,630,68.09,0.63
+tsiligirides_problem_3_budget_070,ilp,640,69.69,0.68

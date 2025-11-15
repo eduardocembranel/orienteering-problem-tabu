@@ -1,0 +1,15 @@
+instance,config,score,dist,time
+tsiligirides_problem_2_budget_25,ilp,50,15.50,0.00
+tsiligirides_problem_2_budget_25,ilp,20,5.24,0.10
+tsiligirides_problem_2_budget_25,ilp,35,4.29,0.13
+tsiligirides_problem_2_budget_25,ilp,45,8.82,0.15
+tsiligirides_problem_2_budget_25,ilp,55,8.93,0.17
+tsiligirides_problem_2_budget_25,ilp,80,24.64,0.20
+tsiligirides_problem_2_budget_25,ilp,95,15.87,0.22
+tsiligirides_problem_2_budget_25,ilp,110,15.87,0.25
+tsiligirides_problem_2_budget_25,ilp,135,17.32,0.28
+tsiligirides_problem_2_budget_25,ilp,150,24.92,0.31
+tsiligirides_problem_2_budget_25,ilp,165,22.57,0.35
+tsiligirides_problem_2_budget_25,ilp,175,24.82,0.38
+tsiligirides_problem_2_budget_25,ilp,200,19.88,0.46
+tsiligirides_problem_2_budget_25,ilp,230,24.89,0.52
